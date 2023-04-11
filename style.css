@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 
 nav {
@@ -8,8 +10,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30px;
-
+    height: 50px;
 }
 
 nav ul {
@@ -52,6 +53,10 @@ main {
 section#texto {
     width: 50%;
     padding: 20px;
+    border: solid black;
+    float: left;
+    align-items: center;
+    justify-content: center;
 }
 
 section#texto h1 {
@@ -63,6 +68,8 @@ section#texto h1 {
 section#texto p {
     color: black;
     font-size: 12px;
+    margin-bottom: 10px;
+    display: flex;
 }
 
 section#imagens {
@@ -73,16 +80,19 @@ section#imagens {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    border: solid black;
+    float: left;
 }
 
 .linha {
-    width: 100%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
 .imagem {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,6 +103,7 @@ section#imagens {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5%;
 }
 
 .imagem h5 {
@@ -103,9 +114,10 @@ section#imagens {
     justify-content: center;
     color: white;
     margin-top: -10px;
+    border-radius: 5%;
 }
 
 footer {
-    height: 20px;
+    height: 40px;
     background-color: #277AE3;
 }
